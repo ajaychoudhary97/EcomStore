@@ -1,0 +1,242 @@
+body,
+body * {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar-menu {
+  width: 100%;
+  height: 67px;
+  background-color: black;
+  /* display: flex;
+  justify-content: center; */
+}
+
+/* @media only screen and (min-width: 375px)and (max-width: 900)
+ {
+  .navbar-menu
+{
+  width: 100%;
+  height: 67px;
+  background-color: black;
+}
+
+
+} */
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #ff7200;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: Arial;
+}
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover {
+  background: #fff;
+  color: #ff7200;
+}
+.btnn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+.form .link a {
+  text-decoration: none;
+  color: #ff7200;
+}
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover {
+  color: #ff7200;
+}
+
+.main-form {
+  position: relative;
+  left: 522px;
+  top: 102px;
+}
+
+.heading1:visited {
+  background-color: red;
+}
+
+.main-logo {
+  width: 140px;
+  margin-left: 60px;
+}
+
+.nav-font {
+  color: black !important;
+  font-weight: 500 !important;
+}
+
+.row-gap1 {
+  margin-top: 32px !important;
+}
+.row-gap2 {
+  margin-top: 7px !important;
+}
+.wn-btn {
+  height: 63px !important;
+  width: 270px !important;
+  border-radius: 1px solid;
+  border: 1px solid grey !important;
+  border-radius: 1px!important;;
+ 
+  background: #fff !important;
+  box-shadow: 80px!important;;
+}
+
+.btn-inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wn {
+  color: #000;
+}
+
+.rectangle {
+  width: 17px;
+  height: 17px;
+  background: #ff9900;
+  margin-top: 4px;
+}
+
+.row-gap3 {
+  margin-top: 45px !important;
+  margin-left: 1px !important;
+}
+.gapfin {
+  margin-left: 47px;
+  font-size: 13px;
+}
+.benefit {
+  font-size: 13px;
+}
+
+.row-gap4 {
+  margin-top: 22px !important;
+  margin-left: 4px !important;
+}
+
+.lesscount {
+  background: #fff !important;
+  border: none !important;
+  color: black !important;
+}
+
+.row-gap5 {
+  margin-top: 45px !important;
+}
+
+.addtobag {
+  height: 44px !important;
+  width: 145px !important;
+  border: 1px !important;
+  border-radius: 1px !important;
+  background: black !important;
+  margin-bottom: 1;
+}
+
+.navbarequal {
+  margin-right: 85px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addtocart {
+  /* height: 44px !important; */
+  width: 100% !important;
+  display: flex;
+  justify-content: center ;
+  border: 1px !important;
+  border-radius: 1px !important;
+  background: black !important;
+  margin-bottom: 1;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url('../public/toggler.svg')!important;
+}
+
+.addtocartcount
+{
+  border: 1px solid!important;
+  border-radius: 9px !important;
+  font-size: 17px !important;
+  background: red !important;
+  color: #ffff !important;
+}
+
+
